@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const geist = Geist({
+const montserrat = Montserrat({
   variable: "--font-sans",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Sierra Lee — Full-Stack Developer",
+  title: "Seorang Lee — Full-Stack Developer",
   description:
     "Full-stack developer specializing in React, Next.js, and Django. Building SaaS products and real-world web applications. Open to US remote roles.",
   keywords: ["full-stack developer", "React", "Next.js", "Django", "remote", "SaaS"],
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${geist.variable} antialiased bg-white text-gray-900`}>
+      <body className={`${montserrat.variable} antialiased bg-white text-gray-900`} suppressHydrationWarning>
         {children}
       </body>
     </html>

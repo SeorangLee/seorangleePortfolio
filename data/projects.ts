@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description:
       "Built a real-time project management tool to replace overcomplicated tools like Jira for small teams. Includes kanban boards, time tracking, and WebSocket-based live collaboration. Reduced team coordination overhead by keeping the UI out of the way.",
     techStack: ["Next.js", "Django", "PostgreSQL", "WebSocket", "Tailwind CSS"],
-    githubUrl: "https://github.com/sierralee/taskflow",
+    githubUrl: "https://github.com/Seoranglee/taskflow",
     liveUrl: "https://taskflow.demo",
   },
   {
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     description:
       "End-to-end invoicing SaaS with recurring billing, PDF generation, and Stripe integration. Designed for freelancers who need a tool that just works — no configuration, no bloat. Handles the entire billing lifecycle from draft to paid.",
     techStack: ["Next.js", "Django REST", "PostgreSQL", "Stripe", "Tailwind CSS"],
-    githubUrl: "https://github.com/sierralee/invoicekit",
+    githubUrl: "https://github.com/Seoranglee/invoicekit",
     liveUrl: "https://invoicekit.demo",
   },
   {
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     description:
       "An intelligent note-taking app that automatically structures and summarizes long-form content. Users import articles, PDFs, or raw text and get organized, searchable summaries in seconds — powered by the OpenAI API with a clean Next.js frontend.",
     techStack: ["Next.js", "Python", "PostgreSQL", "OpenAI API", "Tailwind CSS"],
-    githubUrl: "https://github.com/sierralee/notesai",
+    githubUrl: "https://github.com/Seoranglee/notesai",
     liveUrl: "https://notesai.demo",
   },
 ];

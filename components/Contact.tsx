@@ -4,14 +4,14 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    value: "sierra@example.com",
-    href: "mailto:sierra@example.com",
+    value: "22seorang@gmail.com",
+    href: "mailto:22seorang@gmail.com",
   },
   {
     icon: Github,
     label: "GitHub",
     value: "github.com/sierralee",
-    href: "https://github.com/sierralee",
+    href: "https://github.com/Seoranglee",
   },
   {
     icon: Linkedin,

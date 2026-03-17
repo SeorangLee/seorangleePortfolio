@@ -12,7 +12,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 leading-[1.05]">
-          Sierra Lee
+          Seorang Lee
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-400 font-light tracking-tight">

@@ -28,7 +28,7 @@ export default function Navbar() {
     >
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="text-sm font-semibold tracking-tight text-gray-900">
-          Sierra Lee
+          Seorang Lee
         </a>
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
@@ -43,7 +43,7 @@ export default function Navbar() {
           ))}
         </ul>
         <a
-          href="mailto:sierra@example.com"
+          href="mailto:22seorang@gmail.com"
           className="hidden md:inline-flex text-sm font-medium px-4 py-2 rounded-full bg-gray-900 text-white hover:bg-gray-700 transition-colors duration-200"
         >
           Let&apos;s talk
